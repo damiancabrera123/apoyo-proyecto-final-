@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1763556677 source:d:\ccomp2-2\proyectos-ccomp\credibank\main.cpp
+	<iostream>
+	"CrediBanco.h"
+
+1763557892 d:\ccomp2-2\proyectos-ccomp\credibank\include\credibanco.h
+	"string_"
+
+1763557077 source:d:\ccomp2-2\proyectos-ccomp\credibank\src\credibanco.cpp
+	<iostream >
+	"CrediBanco.h"
+
