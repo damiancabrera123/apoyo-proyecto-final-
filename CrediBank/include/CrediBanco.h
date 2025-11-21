@@ -1,17 +1,17 @@
 #ifndef CREDIBANCO_H
 #define CREDIBANCO_H
 
-#include <string>
+#include <String_>
 
 
 class Credibanco {
 
 protected:
-    std::string numeroCuenta;
+    String_ numeroCuenta;
     double saldo;
-
+    String_ tipo ;
 public:
-    Credibanco(std::string numeroCuenta, double saldoInicial);
+    Credibanco(String_ numeroCuenta, double saldoInicial);
 
     // Métodos base
     virtual void depositar(double monto);
@@ -24,5 +24,6 @@ public:
 };
 
 #endif
+
 
 
