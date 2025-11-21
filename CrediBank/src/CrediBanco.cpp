@@ -1,6 +1,14 @@
 #include <iostream >
 #include "CrediBanco.h"
+#include <String_>
 using namespace std;
+
+
+Credibanco::Credibanco(String_ numero, double saldoInicial,String_ tipo){
+    numeroCuenta=numero;
+    saldo=saldoInicial;
+    this->tipo=tipo;
+}
 
 void CrediBanco:: caratula(){
     cout<<"     //*******************************************************************************************************//"<<endl;
@@ -23,8 +31,6 @@ void CrediBanco:: caratula(){
     cout<< "    Como siguiente paso vamos a pedirle sus datos para guardarlos en el sistema y asi asignarle su grupo de cuenta "<< endl ;
     cout<< "    Aparte se le dara ciertos beneficios en caso de ser parte de ser usuario premiun o preferencial "<< endl ;
     
-Credibanco::Credibanco(std::string numero, double saldoInicial)
-    : numeroCuenta(numero), saldo(saldoInicial) {}
 
 }
 void Credibanco::depositar(double monto) {
@@ -50,6 +56,7 @@ CrediBanco::~CrediBanco()
 {
     //dtor
 }
+
 
 
 
