@@ -18,6 +18,10 @@ void CrediBanco:: caratula(){
     cin >>tipo ;
     if (tipo =="a"  ||  tipo =="debito"  ||  tipo =="A"){
         cout <<"felicidades usted acaba de recibir una tarjeta de debito "<<endl ;
+    }else if (tipo =="b"  ||  tipo =="credito"  ||  tipo =="B"){
+        cout <<"felicidades usted acaba de recibir una tarjeta de credito "<<endl ;
+    }else if (tipo =="c"  ||  tipo =="cuenta de ahorro"  ||  tipo =="C"){
+        cout <<"felicidades usted acaba de recibir una tarjeta de cuenta de ahorro "<<endl ;
     }
 
 
@@ -28,3 +32,4 @@ CrediBanco::~CrediBanco()
 {
     //dtor
 }
+
