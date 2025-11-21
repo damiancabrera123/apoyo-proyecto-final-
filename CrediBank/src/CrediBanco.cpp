@@ -1,5 +1,4 @@
 #include <iostream >
-#include <string>
 #include "CrediBanco.h"
 using namespace std;
 CrediBanco::CrediBanco()
@@ -23,7 +22,9 @@ void CrediBanco:: caratula(){
     }else if (tipo =="c"  ||  tipo =="cuenta de ahorro"  ||  tipo =="C"){
         cout <<"felicidades usted acaba de recibir una tarjeta de cuenta de ahorro "<<endl ;
     }
-
+    cout<< "    Como siguiente paso vamos a pedirle sus datos para guardarlos en el sistema y asi asignarle su grupo de cuenta "<< endl ;
+    cout<< "    Aparte se le dara ciertos beneficios en caso de ser parte de ser usuario premiun o preferencial "<< endl ;
+    
 
 
 }
@@ -32,4 +33,5 @@ CrediBanco::~CrediBanco()
 {
     //dtor
 }
+
 
